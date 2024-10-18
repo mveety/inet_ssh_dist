@@ -1,0 +1,11 @@
+{application, inet_ssh_dist,
+ [{description, "rebar3-ified inet_ssh_dist"},
+  {vsn, git},
+  {registered, []},
+  {applications,
+   [kernel, stdlib, crypto, ssl, inets
+   ]},
+  {env,[]},
+  {modules, []},
+  {links, []}
+ ]}.

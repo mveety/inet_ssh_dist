@@ -3,3 +3,5 @@ ebin/
 local.Makefile
 inet_ssh_dist.d
 *.swp
+_build/
+
